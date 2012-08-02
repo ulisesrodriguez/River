@@ -1,0 +1,7 @@
+Web
+http://www.rivher.com/
+
+<Host>rivher.com</Host>
+<User>rivherc</User>
+<Pass>pl@y</Pass>
+  

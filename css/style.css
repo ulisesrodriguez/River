@@ -1,0 +1,370 @@
+/**
+ *	CSS Document
+ *	Style site river
+ *	Powered by @Ulises Rodriguez
+ */  
+body{ 
+	background:url(../images/bg.png);
+	background-repeat:repeat;
+}
+#header{
+	float:none;
+	margin-top:30px;
+	width:1100px;
+	height:300px;
+}
+#line{
+	width:1320px;
+	float:left;
+	margin-left:-60px;
+	background:url(../images/line.png);
+	background-repeat:repeat-x;	
+}
+#header #logo{
+	float:left;
+	margin-left:200px;
+	margin-top:-135px;
+	width:350px;
+	height:120px;
+	background-color:#FFFBF0;
+	
+}
+
+#logo #bg-logo{
+	width:340px;
+	height:110px;
+	margin: 4px 0 4px 8px;
+	background:url(../images/bg-logo.png);
+	background-repeat:repeat;	
+}
+
+#logo #img-uno{
+	float:left;
+	margin-left:50px;
+}
+#logo #img-dos{
+	float:left;
+	margin-left:20px;
+}
+
+
+.boton a{
+	padding: 4px 0 4px 0;
+	text-decoration:none;
+	text-align:center;
+	color:#EEE;
+	font-family: 'Rokkitt', serif;
+	font-size:16px;	
+	float:right;
+	width:205px;
+	height: 20px;	
+	background:url(../images/boton.jpg);
+	background-repeat:none;	
+	text-shadow: white 0.3em 0.2em 0.2em
+}
+#header #btn-quienes{
+	position:relative;
+	float:left;
+	margin: -140px 0 10px 450px;
+}
+#header #btn-quienes a:hover{
+	color:#FFFBF0;	
+}
+
+#header #btn-productos{
+	position:relative;
+	float:left;
+	margin: -107px 0 10px 450px;
+}
+#header #btn-productos a:hover{
+	color:#FFFBF0;	
+}
+
+
+#header #btn-compras{
+	position:relative;
+	float:left;
+	margin: -75px 0 10px 450px;
+}
+
+#header #btn-compras a:hover{
+	color:#FFFBF0;	
+}
+
+
+#header #btn-contacto{
+	position:relative;
+	float:left;
+	margin: -43px 0 10px 450px;
+}
+
+#header #btn-contacto a:hover{
+	color:#FFFBF0;	
+}
+
+
+#bannerheader{
+	margin-top:-148px;
+	float:right;
+	width:auto;
+	height:auto;
+	margin-right:2px;
+	background:url(../images/bg-header.jpg);
+	background-repeat:none;	
+}
+
+#bannerheader img{
+	padding: 10px 10px 10px 10px;
+}
+
+#secciontext{
+	width:460px;
+	height:auto;
+	margin: 20px 0 0 190px;
+	float:left;
+	background-image:url(../images/backgroundtext.png);
+}
+
+.text, p{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#EEE;
+	text-align:justify;
+	font-size:12px;
+	margin-left:10px;
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+} 
+
+.textproducto {
+	text-align:center;	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#EEE;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+} 
+
+.title{
+	color:#EEE;
+	text-align:justify;
+	margin-left:10px;
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+	font-size: 14px;
+} 
+#container-banner{
+	width:881;
+	margin-top: 150px;
+	margin-left:200px;
+}
+#container-slider{
+	width:881;
+	margin-top: -50px;
+}
+.theme-default #slider {
+    margin:100px auto 0 auto;
+    width:618px; /* Make sure your images are the same size */
+    height:246px; /* Make sure your images are the same size */
+}
+.theme-pascal.slider-wrapper,
+.theme-orman.slider-wrapper {
+    margin-top:150px;
+}
+.clear {
+	clear:both;
+}
+/**
+ *	Seccione Quienes somos
+ **/
+
+.banner{
+	float:left;
+	margin-left:100px;
+	width:auto;
+	margin-bottom:30px;
+}
+
+.bannerquienes{
+	float:left;
+	margin-left:130px;
+	width:auto;
+	margin-bottom:30px;
+}
+
+#container-quienes{
+
+	width:950px;
+	height:auto;
+	float:left;
+	margin-left:100px;
+	margin-top:-30px;
+	background-image:url(../images/backgroundtext.png);
+	
+	
+}
+
+#container-quienes .left{
+	width:450px;
+	float:left;
+	height:auto;
+	margin: 10px 10px 10px 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+
+#container-quienes .rigth{
+	width:450px;
+	float:right;
+	height:auto;
+	margin: 10px 10px 10px 10px;
+	font-size: 14px;
+}
+
+
+
+#container-productos{
+
+	width:1080px;
+	height:1100px;
+	float:left;
+	margin-left:50px;
+	margin-top:-200px;
+	/*background-image:url(../images/backgroundtext.png);*/
+	
+	
+}
+
+#container-productos #producto-uno{
+
+	width:250px;;
+	height:1000px;
+	float:left;
+	margin-left:10px;
+	background-image:url(../images/backgroundtext.png);
+	
+	
+}
+
+#container-productos #producto-uno img{
+
+	float:left;
+	margin-left:15px;
+	
+	
+}
+
+#container-productos #producto-dos{
+
+	width:250px;;
+	height:1000px;
+	float:left;
+	margin-left:10px;
+	background-image:url(../images/backgroundtext.png);
+	
+	
+}
+
+#container-productos #producto-dos img{
+
+	float:left;
+	margin-left:15px;
+	
+	
+}
+
+#container-productos #producto-tres{
+
+	width:250px;;
+	height:1000px;
+	float:left;
+	margin-left:10px;
+	background-image:url(../images/backgroundtext.png);
+	
+	
+}
+
+#container-productos #producto-tres img{
+
+	float:left;
+	margin-left:15px;
+	
+	
+}
+
+#container-productos #producto-cuatro{
+
+	width:250px;;
+	height:1000px;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+	background-image:url(../images/backgroundtext.png);
+	
+	
+}
+#container-productos #producto-cuatro img{
+
+	float:left;
+	margin-left:15px;
+	
+	
+}
+
+#container-compras{
+
+	width:880px;
+	height:auto;
+	float:left;
+	margin-left:118px;
+	margin-top:-245px;
+	background-image:url(../images/bg-compras.png);
+	
+	
+}
+
+#container-compras .left{
+	width:450px;
+	float:left;
+	height:auto;	
+	margin: 10px 10px 10px 10px;
+}
+
+#container-compras .left img{
+	float:left;
+	margin: -260px 0 0 350px;	
+}
+
+#container-compras .rigth{
+	width:350px;
+	float:right;
+	height:auto;
+	margin-top:10px;
+}
+
+
+#container-contacto{
+
+	width:880px;
+	height:auto;
+	float:left;
+	margin-left:118px;
+	margin-top:-245px;
+	background-image:url(../images/bg-compras.png);
+	
+	
+}
+
+#contacto #btn-send{
+	float:right;
+	margin-right: 10px;
+	background-image:url(../images/btn-send.png);
+	background-repeat:no-repeat;
+	width:80px;
+	height:35px;
+	text-decoration:none;
+	
+}
