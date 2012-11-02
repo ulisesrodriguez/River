@@ -1,10 +1,7 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
-
-
 /* TEAM */
-  <your title>: <Ulises Rodríguez>
-  Site 	: http://www.ulisesrodriguez.com
+  Ulises Rodríguez
+  
+  Site 		: http://www.ulisesrodriguez.com
   Twitter	: @isc_ulises
   Facebook	: http://www.facebook.com/ISC.Ulises
   gmail		: ing.ulisesrodriguez@gmail.com
@@ -13,13 +10,11 @@
   
   Location: Mundial
 
-/* THANKS */
-  Names ( Ulises Rodrigues & ing.ulisesrodriguez@gmail.com):
 
 /* SITE */
   Standards: HTML, CSS
   Components: jQuery
-  Software:
+  Software: Template River
 
 
 
